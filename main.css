@@ -1,0 +1,121 @@
+body {
+  background-color: #15101C;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 583px;
+  margin: auto;
+  background-color: #1D1825;
+  margin-top: 109px;
+  border-radius: 20px;
+  padding-left: 65px;
+  padding-right: 86px;
+  padding-bottom: 55px;
+}
+.container .add-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-top: 50px;
+}
+.container .add-task .new-task {
+  width: 100%;
+}
+.container .add-task .new-task input {
+  width: 100%;
+  padding: 11px 0 10px 15px;
+  background-color: transparent;
+  border: 1px solid #9E78CF;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  color: #777777;
+  font-weight: 400;
+  outline: none;
+}
+.container .add-task .new-task__button button {
+  background-color: #9E78CF;
+  border-style: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container .task-counter {
+  margin-top: 5.9rem;
+}
+.container .task-counter p {
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.container .to-do__items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.container .to-do__items .to-do__items--item {
+  display: flex;
+  align-items: center;
+  background-color: #15101C;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 20px 19px 22px;
+}
+.container .to-do__items .to-do__items--item p {
+  color: #9E78CF;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.container .to-do__items .to-do__items--item .action-buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.container .to-do__items .to-do__items--item .action-buttons span {
+  color: #9E78CF;
+  cursor: pointer;
+}
+.container .to-do__items .to-do__items--item .action-buttons img {
+  cursor: pointer;
+}
+.container .done-tasks--counter p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  margin-top: 60px;
+}
+.container .done-tasks-list {
+  display: flex;
+  align-items: center;
+  background-color: #15101C;
+  border-radius: 10px;
+  padding: 20px 19px 22px;
+}
+.container .done-tasks-list p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  text-decoration: line-through;
+  color: #78CFB0;
+}
+
+@media only screen and (max-width: 560px) {
+  .container {
+    padding: 20px;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 430px) {
+  html {
+    font-size: 8px;
+  }
+  .to-do__items .to-do__items--item {
+    padding: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
